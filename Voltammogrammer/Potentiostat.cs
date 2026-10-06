@@ -6745,7 +6745,7 @@ namespace Voltammogrammer
                     chartVoltammogram.ChartAreas[0].AxisX.Title = "Re[Z] / ohm";
                     chartVoltammogram.ChartAreas[0].AxisX.Maximum = Double.NaN;
                     chartVoltammogram.ChartAreas[0].AxisX.Minimum = 0;// Double.NaN;
-                    chartVoltammogram.ChartAreas[0].AxisY.Title = "Im[Z] / ohm";
+                    chartVoltammogram.ChartAreas[0].AxisY.Title = "-Im[Z] / ohm";
                     chartVoltammogram.ChartAreas[0].AxisX2.Title = "Frequency / Hz";
                     chartVoltammogram.ChartAreas[0].AxisX2.Minimum = Double.NaN;
                     //chartVoltammogram.ChartAreas[0].AxisX2.Minimum = 1;
